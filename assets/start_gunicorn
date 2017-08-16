@@ -1,0 +1,2 @@
+# cd /usr/share/webapps/$APP
+# gunicorn $APP.wsgi:application --bind 0.0.0.0:8000
